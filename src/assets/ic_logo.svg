@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0023ff;
+      }
+    </style>
+  </defs>
+  <g id="ic_logo" transform="translate(-476 317)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M0,30,30,0,60,30l-7.551,7.551h0l-15,15-7.425-7.425V59.974L30,60h0Zm15.026.026L30,45,44.951,30.052l.025.025.051-.051-15-15Z" transform="translate(476 -317)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-1" width="10.607" height="10.607" transform="translate(505.951 -279.549) rotate(-135)"/>
+  </g>
+</svg>

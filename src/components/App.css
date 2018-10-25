@@ -1,0 +1,36 @@
+.main-wrapper {
+    height: calc(100% -80px);
+    min-height: 100vh;
+    width: calc(100% - 80px);
+    padding: 3rem 1.5rem;
+    margin: 80px 0 0 80px;
+    position: relative;
+    background: hsl(0, 0%, 96%);
+    transition: all .3s;
+}
+
+.main-header {
+    margin: 0 0 2rem 0;
+}
+
+.box-wrapper {
+    padding: .5rem;
+}
+
+.table-wrapper {
+    overflow-x: auto;   
+}
+
+.account-wrapper {
+    padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .main-wrapper {
+        height: calc(100% - 60px);
+        min-height: 100vh;
+        width: auto;
+        margin: 60px 0 0 0;
+        padding: 1.5rem .75rem;
+    }
+}

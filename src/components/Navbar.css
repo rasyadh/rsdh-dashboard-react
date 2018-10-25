@@ -1,0 +1,39 @@
+.main-navbar {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.02);
+    z-index: 9;
+    transition: all .3s;
+}
+
+.has-nav-spaced {
+    padding: .75rem 1.5rem !important;
+}
+
+.main-navbar .navbar-brand {
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-item span :hover {
+    color: #0023FF !important;
+}
+
+@media (max-width: 768px) {
+    .main-navbar {
+        height: 60px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main-navbar .navbar-brand {
+        height: 60px;
+    }
+}
